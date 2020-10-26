@@ -1,0 +1,92 @@
+@import url('https://cdn.pixabay.com/photo/2015/12/08/00/39/foggy-1081915_1280.jpg');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 ;
+    background: rgb(43, 63, 54) ;
+    color: whitesmoke ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+a {
+    color: whitesmoke ;
+    text-decoration: none ;
+}
+
+ul {
+    list-style:none ;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style:none ;
+}
+img{
+    position:relative;
+    border-width: 2px;
+    border-style: dotted ;
+    border-color: rgb(23, 2, 43);
+    }
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    }
+.hero-wrapper {
+    background: url('https://cdn.pixabay.com/photo/2015/12/08/00/39/foggy-1081915_1280.jpg');
+    background-size: cover ;
+}
+
+.wrapper {
+    padding: 1.5em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+
+ul {
+    display: flex;
+        
+li a {
+    padding: 0.6em;
+}
+}
+}
+
+.hero-content {
+    margin: 4em 0 2em;
+
+.subtitle {
+    margin-bottom: 0;
+}
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    justify-content: space-around;
+    margin-top: 2em;
+
+}
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+}
+
+.companies {
+    text-align:center ;
+    opacity: 0.4;
+
+    li {
+    margin: 2em 0;
+    }
+
